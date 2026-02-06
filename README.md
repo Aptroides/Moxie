@@ -12,6 +12,15 @@
 - [ ] **Annotation System:** Auto-mapping classes to files via reflection.
 - [ ] **Backup System:** Fail-safe snapshots for corrupted data prevention.
 
+
+<!--
+
+- [ ] **Mapper**
+- [ ] **Serializer**
+- [ ] **Reflection Read By Class on save and on another operations**
+
+-->
+
 ---
 
 ### Inspired By
