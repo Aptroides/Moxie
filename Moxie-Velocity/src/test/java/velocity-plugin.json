@@ -1,0 +1,16 @@
+{
+  "id": "moxie-test",
+  "name": "MoxieTest",
+  "version": "0.1-SNAPSHOT",
+  "description": "Integration testing for Moxie-Config on Velocity",
+  "authors": [
+    "a8kj"
+  ],
+  "main": "demo.listeners.velocity.VelocityMain",
+  "dependencies": [
+    {
+      "id": "velocity",
+      "optional": false
+    }
+  ]
+}

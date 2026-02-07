@@ -11,6 +11,7 @@
     <modules>
         <module>Moxie-Core</module>
         <module>Moxie-Bukkit</module>
+        <module>Moxie-Velocity</module>
     </modules>
 
     <properties>

@@ -26,6 +26,7 @@ public class GenericMapDataMemory<K> implements DataMemory<K> {
      * The internal map used to store configuration values.
      * Initialized with a standard {@link HashMap} for O(1) average time complexity.
      */
+    @Getter
     protected final Map<K, Object> storage = new HashMap<>();
 
     /**
