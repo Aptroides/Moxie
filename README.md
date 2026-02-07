@@ -20,6 +20,8 @@
 - [ ] **Reflection Read By Class on save and on another operations**
 replace get object by optional
 
+btw لازم اغير الاسماء لحتى يوضح الفرق بين الملف وبين الكونفق ككيان لانه الكيان مش لازم يدير مهامه لحاله اتوقع لازم اخترع ديزيان باتررن للموضوع 
+
 -->
 
 ---
