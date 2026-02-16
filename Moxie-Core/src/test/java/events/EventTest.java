@@ -31,6 +31,7 @@ public class EventTest {
     /**
      * Main execution flow for testing event triggers and registry lookups.
      * * @param args Command line arguments.
+     *
      * @throws IOException If file operations encounter issues.
      */
     public static void main(String[] args) throws IOException {
@@ -77,7 +78,7 @@ public class EventTest {
             @Override
             public ConfigOperation<String> read() {
                 return c -> {
-                    c.memory().set("test" , "test");
+                    c.memory().set("test", "test");
                     // Triggering the Load event manually during the read process
                     module.callEvent(new ConfigLoadEvent<String>(c));
                 };

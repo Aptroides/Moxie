@@ -126,8 +126,7 @@ public class BasicVelocityConfig extends BaseConfig<String> {
                             throw new RuntimeException("Failed to serialize key: " + key, e);
                         }
                     });
-                }
-                else if (memory instanceof MapPairedDataMemory pairedMemory) {
+                } else if (memory instanceof MapPairedDataMemory pairedMemory) {
                     pairedMemory.getStorage().forEach((key, value) -> {
                         try {
                             root.node((Object[]) key.toString().split("\\.")).set(value);

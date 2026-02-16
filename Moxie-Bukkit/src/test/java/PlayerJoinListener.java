@@ -15,8 +15,8 @@ public class PlayerJoinListener implements Listener {
         BasicConfigFile<String> config = (BasicConfigFile<String>) ConfigProvider.provide().getConfig("settings");
         DataMemory<String> memory = config.memory();
         String serverName = memory.getString("server-name");
-        event.getPlayer().sendMessage(memory.transform("Hello %player% welcome to our %server%" , Replacement.of("player" , event.getPlayer().getName())
-        , Replacement.of("server" , serverName)));
+        event.getPlayer().sendMessage(memory.transform("Hello %player% welcome to our %server%", Replacement.of("player", event.getPlayer().getName())
+                , Replacement.of("server", serverName)));
     }
 
 }

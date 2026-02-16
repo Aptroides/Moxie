@@ -35,6 +35,7 @@ public class VelocityDataMemory extends GenericMapDataMemory<String> {
     /**
      * A specialized version of transform that directly returns a Component.
      * * @param key the key pointing to the raw string.
+     *
      * @return processed Component.
      */
     public Component getComponent(String key) {

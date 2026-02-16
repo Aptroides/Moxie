@@ -56,4 +56,44 @@ public class MemoryEntry<T> {
     public T fetch(DataMemory<String> memory) {
         return entry.value().getValue(memory, entry.key());
     }
+
+
+    /**
+     * Fetches the value associated with this entry from the provided memory source.
+     * If the value is null, the provided default value will be returned instead.
+     *
+     * @param memory       the {@link DataMemory} instance to pull data from.
+     * @param defaultValue the fallback value to return if no value is found.
+     * @return the stored value or the default value if absent.
+     * @author <a href="https://github.com/a8kj7sea">a8kj7sea</a>
+     * @since 0.3
+     */
+    public T fetchOrDefault(DataMemory<String> memory, T defaultValue) {
+        T value = fetch(memory);
+        return value != null ? value : defaultValue;
+    }
+
+    /**
+     * Returns the configuration key associated with this entry.
+     *
+     * @return the configuration path/key.
+     * @author <a href="https://github.com/a8kj7sea">a8kj7sea</a>
+     * @since 0.3
+     */
+    public String key() {
+        return entry.key();
+    }
+
+    /**
+     * Returns the {@link MemoryDataType} of this entry.
+     *
+     * @return the memory data type strategy.
+     * @author <a href="https://github.com/a8kj7sea">a8kj7sea</a>
+     * @since 0.3
+     */
+    public MemoryDataType type() {
+        return entry.value();
+    }
+
+
 }

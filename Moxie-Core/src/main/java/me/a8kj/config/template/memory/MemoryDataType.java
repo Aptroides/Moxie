@@ -17,22 +17,34 @@ import java.util.function.BiFunction;
 @Getter
 public enum MemoryDataType {
 
-    /** Handles retrieval of plain text. */
+    /**
+     * Handles retrieval of plain text.
+     */
     STRING((mem, key) -> mem.getString(key)),
 
-    /** Handles retrieval of integer values with a default of 0. */
+    /**
+     * Handles retrieval of integer values with a default of 0.
+     */
     INTEGER((mem, key) -> mem.getInt(key, 0)),
 
-    /** Handles retrieval of boolean flags with a default of false. */
+    /**
+     * Handles retrieval of boolean flags with a default of false.
+     */
     BOOLEAN((mem, key) -> mem.getBoolean(key, false)),
 
-    /** Handles retrieval of floating-point numbers with a default of 0.0. */
+    /**
+     * Handles retrieval of floating-point numbers with a default of 0.0.
+     */
     DOUBLE((mem, key) -> mem.getDouble(key, 0.0)),
 
-    /** Handles retrieval of string collections. */
+    /**
+     * Handles retrieval of string collections.
+     */
     STRING_LIST((mem, key) -> mem.getStringList(key)),
 
-    /** Handles retrieval of raw objects (Generic/Fallback). */
+    /**
+     * Handles retrieval of raw objects (Generic/Fallback).
+     */
     OBJECT((mem, key) -> mem.get(key));
 
     /**

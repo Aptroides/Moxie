@@ -26,7 +26,7 @@ public class BasicConfigBuilder<K> {
     /**
      * Static factory method to initiate the builder with a specific key type.
      *
-     * @param <T> the type of data for the new builder.
+     * @param <T>     the type of data for the new builder.
      * @param keyType the class representing the data type.
      * @return a new instance of {@link BasicConfigBuilder}.
      * @author <a href="https://github.com/a8kj7sea">a8kj7sea</a>

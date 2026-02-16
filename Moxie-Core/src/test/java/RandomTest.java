@@ -23,6 +23,7 @@ public class RandomTest {
     /**
      * Entry point for testing the build and execution flow of a configuration file.
      * * @param args Command line arguments.
+     *
      * @throws IOException If any file operation fails during execution.
      */
     public static void main(String[] args) throws IOException {

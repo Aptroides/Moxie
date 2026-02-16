@@ -1,7 +1,6 @@
 package me.a8kj.config.template.memory.impl;
 
 import lombok.Getter;
-import me.a8kj.config.template.memory.DataMemory;
 import me.a8kj.config.template.replacement.Replacement;
 import me.a8kj.config.template.replacement.ReplacementProcessor;
 import me.a8kj.config.template.replacement.impl.PlaceholderProcessor;

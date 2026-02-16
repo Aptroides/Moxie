@@ -1,9 +1,9 @@
 package schema.general;
 
-import me.a8kj.util.Pair;
 import me.a8kj.config.template.memory.impl.MapPairedDataMemory;
 import me.a8kj.config.template.memory.impl.PairedDataMemory;
 import me.a8kj.config.template.replacement.Replacement;
+import me.a8kj.util.Pair;
 
 import java.util.Arrays;
 

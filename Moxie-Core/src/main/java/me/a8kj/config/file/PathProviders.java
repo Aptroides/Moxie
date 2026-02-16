@@ -81,7 +81,7 @@ public final class PathProviders {
      * Creates a hybrid provider that attempts to use a primary directory if it exists and is writable,
      * otherwise falls back to a secondary directory.
      *
-     * @param primary the first choice {@link PathProvider}.
+     * @param primary   the first choice {@link PathProvider}.
      * @param secondary the fallback {@link PathProvider}.
      * @return a {@link PathProvider} that evaluates the best available directory.
      * @author <a href="https://github.com/a8kj7sea">a8kj7sea</a>

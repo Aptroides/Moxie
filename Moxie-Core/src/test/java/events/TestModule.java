@@ -5,8 +5,8 @@ import lombok.RequiredArgsConstructor;
 import me.a8kj.config.ConfigAPI;
 import me.a8kj.config.template.registry.ConfigRegistry;
 import me.a8kj.eventbus.Event;
-import me.a8kj.eventbus.manager.EventManager;
 import me.a8kj.eventbus.Listener;
+import me.a8kj.eventbus.manager.EventManager;
 
 /**
  * Implementation of the {@link ConfigAPI} acting as the central hub for the module.

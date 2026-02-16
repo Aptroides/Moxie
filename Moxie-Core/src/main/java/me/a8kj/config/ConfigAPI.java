@@ -5,6 +5,7 @@ import me.a8kj.config.template.registry.ConfigRegistry;
 import me.a8kj.eventbus.Event;
 import me.a8kj.eventbus.Listener;
 import me.a8kj.eventbus.manager.EventManager;
+
 import java.util.Objects;
 
 /**

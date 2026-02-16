@@ -29,12 +29,13 @@ public class PairedConfigBuilder<K> {
      * @author <a href="https://github.com/a8kj7sea">a8kj7sea</a>
      * @since 0.1
      */
-    private PairedConfigBuilder() {}
+    private PairedConfigBuilder() {
+    }
 
     /**
      * Static factory method to initiate the paired builder with a specific key type.
      *
-     * @param <T> the type of keys for the new builder.
+     * @param <T>     the type of keys for the new builder.
      * @param keyType the class representing the key type.
      * @return a new instance of {@link PairedConfigBuilder}.
      * @author <a href="https://github.com/a8kj7sea">a8kj7sea</a>

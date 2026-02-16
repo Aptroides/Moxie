@@ -1,10 +1,10 @@
 package schema.clans;
 
-import me.a8kj.util.Pair;
 import me.a8kj.config.template.memory.DataMemory;
 import me.a8kj.config.template.memory.impl.MapPairedDataMemory;
 import me.a8kj.config.template.memory.impl.PairedDataMemory;
 import me.a8kj.config.template.replacement.Replacement;
+import me.a8kj.util.Pair;
 
 /**
  * Integration test demonstrating the "Schema Style" approach.

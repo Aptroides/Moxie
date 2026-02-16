@@ -27,27 +27,31 @@ public abstract class BaseConfig<K> implements CRUDOperations<K> {
      * Optional hook triggered immediately before the configuration file is created.
      * * @param config The configuration file instance to be created.
      */
-    protected void onPreCreate(ConfigFile<K> config) {}
+    protected void onPreCreate(ConfigFile<K> config) {
+    }
 
     /**
      * Optional hook triggered after the configuration file has been successfully
      * written to disk, either from a resource or as a new empty file.
      * * @param config The created configuration file instance.
      */
-    protected void onPostCreate(ConfigFile<K> config) {}
+    protected void onPostCreate(ConfigFile<K> config) {
+    }
 
     /**
      * Optional hook triggered immediately before the configuration file is deleted from disk.
      * * @param config The configuration file instance to be deleted.
      */
-    protected void onPreDelete(ConfigFile<K> config) {}
+    protected void onPreDelete(ConfigFile<K> config) {
+    }
 
     /**
      * Optional hook triggered after the configuration file and its memory buffer
      * have been successfully cleared and removed.
      * * @param config The deleted configuration file instance.
      */
-    protected void onPostDelete(ConfigFile<K> config) {}
+    protected void onPostDelete(ConfigFile<K> config) {
+    }
 
     /**
      * Creates a {@link ConfigOperation} for initializing the configuration file.

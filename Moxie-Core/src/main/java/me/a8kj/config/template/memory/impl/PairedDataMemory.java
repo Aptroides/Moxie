@@ -1,8 +1,8 @@
 package me.a8kj.config.template.memory.impl;
 
-import me.a8kj.util.Pair;
 import me.a8kj.config.template.memory.DataMemory;
 import me.a8kj.config.template.memory.MemoryEntry;
+import me.a8kj.util.Pair;
 
 /**
  * An extension of {@link DataMemory} that supports advanced retrieval using {@link MemoryEntry}.

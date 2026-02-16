@@ -47,8 +47,7 @@ public class Main extends JavaPlugin {
         // if you wanna to to use log btw so enable it
         Log.addDestination(new ConsoleLogger());
         ConfigProvider.provide().getEventManager().register(new CreateConfigListener());
-        this.getServer().getPluginManager().registerEvents(new PlayerJoinListener() , this);
-
+        this.getServer().getPluginManager().registerEvents(new PlayerJoinListener(), this);
 
 
         /**

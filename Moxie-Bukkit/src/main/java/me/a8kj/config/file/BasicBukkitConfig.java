@@ -99,8 +99,8 @@ public class BasicBukkitConfig extends BukkitConfig<String> {
                 File file = context.file();
                 YamlConfiguration yaml = new YamlConfiguration();
 
-                if (context.memory() instanceof MapPairedDataMemory ) {
-                    ((MapPairedDataMemory)context.memory()).getStorage().forEach(yaml::set);
+                if (context.memory() instanceof MapPairedDataMemory) {
+                    ((MapPairedDataMemory) context.memory()).getStorage().forEach(yaml::set);
                 }
 
                 yaml.save(file);
